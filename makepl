@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# ######## Create a playlist #######
+
+#$(which find) $PWD -type f -iname '*.mp4' | sort > /home/py_buddha/Downloads/Videos/Playlists/$1.m3u
+
+DEFAULT="/home/py_buddha/Downloads/Videos/Playlists"
+
+if [ -z '$1' ];
+  then
+    echo "Create playlist with random number name"
+    $(which find) $PWD -type f -iname '*.mp4' | sort > $DEFAULT/$RANDOM.m3u
+else
+    $(which find) $PWD -type f -iname '*.mp4' | sort > $DEFAULT/$1.m3u
+fi
