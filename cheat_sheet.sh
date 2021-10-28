@@ -128,7 +128,7 @@ NAME="Bob"
 #   echo "Hello, I am $1 and I am $2"
 # }
 
-# greet "Brad" "36"
+# greet "Lack" "36"
 
 # CREATE FOLDER AND WRITE TO A FILE
 # mkdir hello
