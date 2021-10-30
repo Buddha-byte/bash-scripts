@@ -6,7 +6,7 @@
 # VARIABLES
 # Uppercase by convention
 # Letters, numbers, underscores
-NAME="Bob"
+# NAME="Bob"
 # echo "My name is $NAME"
 # echo "My name is ${NAME}"
 
