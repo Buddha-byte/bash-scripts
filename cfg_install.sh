@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+# ===== Dotfiles storage =====
+
 git clone --bare git@github.com:Buddha-byte/dotfiles.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
