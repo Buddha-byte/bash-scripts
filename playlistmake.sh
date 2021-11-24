@@ -2,6 +2,6 @@
 
 # ######## Create a playlist #######
 
-DEFAULT="/home/py_buddha/Downloads/Videos/Playlists"
+DEFAULT="/home/py_buddha/Media/Videos/Playlists"
 
 "$(which find)" "$PWD" -type f -iname '*.mkv' | sort > "$DEFAULT"/"$1".m3u
