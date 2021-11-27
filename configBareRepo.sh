@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 
 # Make my own tasks simple!
+# Use the script, if you want add existing, but modified files, to you own repo
 
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@ # make a function
