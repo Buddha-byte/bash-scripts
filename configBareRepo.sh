@@ -16,4 +16,4 @@ else
     echo "Everything is up to date"
 fi
 
-
+exit 0
