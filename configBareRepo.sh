@@ -9,7 +9,7 @@ function config {
 
 MODIFIED=$(config status | grep "modified" | awk -F ":" '{print $2}') # take the names of modified files
 
-if [ $MODIFIED ]
+if [ "$MODIFIED" ]
 then
     config add $MODIFIED && config commit && config push
 else
